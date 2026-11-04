@@ -10,16 +10,32 @@ NiagaraAIAssist surveys your Niagara 4 station (JACE or Supervisor) once, keeps 
 through your own Claude Code account. It also lists findings (Critical to Info) with the fix for each, asks you when
 something might be on purpose, and remembers your answers.
 
-![Asking about a site in plain English](docs/screenshots/ask.png)
+![A site dashboard with trend charts](docs/screenshots/dashboard.png)
+
+## What it does
+
+- **Ask in plain English**, and get charts right in the answer: "show me discharge air temp vs setpoint on AHU-3".
+- **Real trend charts.** Each unit gets its own panel on one time axis, on/off points get a step panel, and alarms and
+  station changes are marked on the timeline, so you can see what happened when the line moved. Zoom in, save a chart, or
+  download it as an image or CSV.
+- **Dashboards.** Pin saved charts and live values to one page per site.
+- **Findings with the fix for each**, from trending, alarm and logic checks, plus behaviour checks on history: sensors that
+  look frozen, short cycling, hunting outputs, command and proof disagreeing, valves wide open with no temperature response.
+- **Alarm page:** worst offenders, records per day, what's unacknowledged.
+- **Equipment tools:** site map by floor and room, compare two units, fan and pump run hours, schedules, and a drawn logic diagram.
+- **Logging for points the station doesn't trend.** The app can read them every few minutes and chart them, read-only, while the PC is on.
+- **Morning report** of what changed, and a **site report** to send or print as PDF.
+- **Many sites**, grouped, with one overview.
 
 ## Screens
 
 | | |
 |---|---|
-| **Findings, with the fix for each**<br>![Findings page](docs/screenshots/findings.png) | **Equipment by floor and room**<br>![Site map page](docs/screenshots/site-map.png) |
-| **What changed, and who changed it**<br>![Changes page](docs/screenshots/changes.png) | **Your stations**<br>![Stations page](docs/screenshots/stations.png) |
+| **Charts in the conversation**<br>![Ask page](docs/screenshots/ask.png) | **Findings, with the fix for each**<br>![Findings page](docs/screenshots/findings.png) |
+| **Alarms at a glance**<br>![Alarms page](docs/screenshots/alarms.png) | **Equipment by floor and room**<br>![Site map page](docs/screenshots/site-map.png) |
+| **Morning report**<br>![Reports page](docs/screenshots/reports.png) | **What changed, and who changed it**<br>![Changes page](docs/screenshots/changes.png) |
 
-*These screens show a made-up demo site, and the conversation is a written example, not a recorded answer.*
+*These screens show a made-up demo site with made-up numbers, and the conversation is a written example, not a recorded answer.*
 
 ## Read-only, always
 
