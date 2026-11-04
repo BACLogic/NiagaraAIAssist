@@ -10,6 +10,17 @@ NiagaraAIAssist surveys your Niagara 4 station (JACE or Supervisor) once, keeps 
 through your own Claude Code account. It also lists findings (Critical to Info) with the fix for each, asks you when
 something might be on purpose, and remembers your answers.
 
+![Asking about a site in plain English](docs/screenshots/ask.png)
+
+## Screens
+
+| | |
+|---|---|
+| **Findings, with the fix for each**<br>![Findings page](docs/screenshots/findings.png) | **Equipment by floor and room**<br>![Site map page](docs/screenshots/site-map.png) |
+| **What changed, and who changed it**<br>![Changes page](docs/screenshots/changes.png) | **Your stations**<br>![Stations page](docs/screenshots/stations.png) |
+
+*These screens show a made-up demo site, and the conversation is a written example, not a recorded answer.*
+
 ## Read-only, always
 
 It logs in through the station's own login page and only ever sends GET requests. There is no write code in the app:
