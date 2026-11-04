@@ -1,0 +1,20 @@
+name: Feature request
+description: Something you'd like NiagaraAIAssist to do
+labels: [enhancement]
+body:
+  - type: textarea
+    id: want
+    attributes:
+      label: What would you like it to do?
+      placeholder: e.g. Compare two AHUs and list the differences
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What would this help you with?
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Settings page

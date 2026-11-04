@@ -1,0 +1,23 @@
+[
+  {
+    "id": "svc-programming-2026-11",
+    "kind": "service",
+    "title": "Did you know? We program Niagara stations",
+    "text": "Need logic changed, trends set up, alarms routed or graphics built? Our engineers do Niagara 4 programming and integration at a fair price.",
+    "link": "http://www.baclogic.com/?utm_source=app&utm_medium=card&utm_campaign=programming"
+  },
+  {
+    "id": "svc-pm-2026-11",
+    "kind": "service",
+    "title": "Did you know? Low-cost preventive maintenance",
+    "text": "A scheduled check of your Niagara system catches clock drift, dead trends and nuisance alarms before they cost you. Ask about our preventive maintenance plans.",
+    "link": "http://www.baclogic.com/?utm_source=app&utm_medium=card&utm_campaign=pm"
+  },
+  {
+    "id": "tip-ask-2026-11",
+    "kind": "tip",
+    "title": "Tip: ask in your own words",
+    "text": "Try \"check out floor 2, any outstanding issues?\" or \"did AHU-3 shut off last night?\". Tell it when something is on purpose and it will remember.",
+    "link": ""
+  }
+]
